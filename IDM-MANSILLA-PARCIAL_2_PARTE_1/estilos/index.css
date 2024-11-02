@@ -1,0 +1,64 @@
+.bg-fravega{
+    background-color: #440099;
+}
+.text-violeta{
+    color: #440099;
+}
+
+.btn-primary{background-color: #440099;}
+
+.btn-primary:hover{background-color: #c097f2;
+color: #440099;}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+.bg-fravega{
+        background-color: #ffffff;
+    }
+.producto p:nth-of-type(2) {
+font-size: 1.7rem;}
+
+
+.producto h3{
+font-size: 1.3rem;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .bg-fravega{
+        background-color: #ffffff;
+    }
+
+.producto p:nth-of-type(2) {
+font-size: 1.6rem;}
+
+.producto h3{
+    font-size: 1.5rem;
+    }
+
+}
+
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .bg-fravega{
+        background-color: #ffffff;
+    }
+
+.producto p:nth-of-type(2) {
+font-size: 1.5rem;
+
+}
+}
